@@ -1,0 +1,93 @@
+@font-face {
+    font-family: TTHovermedium;
+    src: url(/assets/font/TTHoves-Medium.eot),
+        url(/assets/font/TTHoves-Medium.ttf),
+        url(/assets/font/TTHoves-Medium.woff);
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-rows: minmax(100px, auto) 1fr minmax(417px, auto);
+    min-height: 100%;
+}
+
+.main {
+    max-height: 100%;
+}
+
+.main_page1 {
+    display: grid;
+    grid-template-columns: 8% 32% 55% 5%;
+}
+
+.page1_project {
+    grid-column: 2/3;
+    display: grid;
+    grid-template-rows: 2fr 1fr 1fr 2fr;
+}
+
+.page1_title1 {
+    font-family: 'TTHoverRegular', Arial, sans-serif;
+    font-size: 4em;
+    color: #BDBDBD;
+    display: grid;
+    justify-content: left;
+    align-content: end;
+}
+
+.page1_title2 {
+    font-family: 'TTHovermedium', Arial, sans-serif;
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.page1_left {
+    background-color: white;
+    border: 1px solid #F2F2F2;
+    width: 15%;
+    height: 30%;
+}
+
+.page1_right {
+    background-color: #F9F9F9;
+    border: 1px solid #F2F2F2;
+    width: 15%;
+    height: 30%;
+}
+
+.page1_number {
+    display: grid;
+    align-content: start;
+
+}
+
+
+.page1_picture {
+    height: 90vh;
+    background-image: url(/assets/images/page1/house.png);
+    background-size: cover;
+    margin-bottom: 10%;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.page1_view {
+    background-color: white;
+    width: 25%;
+    height: 10%;
+    border: none;
+    font-family: 'TTHoverRegular', Arial, sans-serif;
+    font-size: 0.75em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

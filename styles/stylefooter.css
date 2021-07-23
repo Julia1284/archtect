@@ -1,0 +1,112 @@
+@font-face {
+    font-family: TTHoverRegular;
+    src: url(/assets/font/TTHoves-Regular.eot),
+        url(/assets/font/TTHoves-Regular.ttf),
+        url(/assets/font/TTHoves-Regular.woff);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+
+
+.footer {
+    background-color: black;
+    background-size: cover;
+    color: white;
+    display: grid;
+    grid-template-columns: 8% 1fr 1fr 2fr 1fr 15%;
+    grid-template-rows: 15% 1fr 15% 18%;
+}
+
+.footer_logo {
+    grid-area: 2/2/3/3;
+}
+
+.footer_menu {
+    grid-area: 2/3/3/4;
+    display: grid;
+    grid-template-rows: 25% 1fr;
+}
+
+.footer_title {
+    font-family: 'TTHoverRegular', Arial, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.footer_list {
+    display: grid;
+}
+
+.footer_link {
+    text-decoration: none;
+    font-family: 'TTHoverRegular', Arial, sans-serif;
+    color: white;
+    font-size: 0.875em;
+
+}
+
+.footer_link:hover {
+    text-decoration: underline;
+
+}
+
+.footer_contact {
+    grid-area: 2/4/3/5;
+    display: grid;
+    font-family: 'TTHoverRegular', Arial, sans-serif;
+    font-size: 0.875em;
+    justify-content: center;
+
+}
+
+.footer_adress {
+    display: grid;
+    grid-template-columns: 15% 1fr;
+    line-height: 2em;
+    font-family: 'TTHoverRegular', Arial, sans-serif;
+}
+
+.footer_adress_img {
+    padding-top: 50%;
+}
+
+.footer_phone_img {
+    padding-top: 50%;
+}
+
+.footer_mail_img {
+    padding-top: 50%;
+}
+
+.footer_phone {
+    display: grid;
+    grid-template-columns: 15% 1fr;
+}
+
+.footer_mail {
+    display: grid;
+    grid-template-columns: 15% 1fr;
+}
+
+
+.footer_net {
+    grid-area: 2/5/3/6;
+    display: grid;
+    grid-template-rows: 25% 1fr;
+}
+
+.footer_icons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.footer_copy {
+    grid-area: 4/2/5/6;
+    display: grid;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.75em;
+    color: #C8C8C880;
+}
