@@ -4,6 +4,7 @@
         url(/assets/font/TTHoves-Medium.ttf),
         url(/assets/font/TTHoves-Medium.woff);
 }
+
 @font-face {
     font-family: SFProDisplay-Bold;
     src: url(/assets/font/SFProDisplay-Bold.eot),
@@ -82,7 +83,7 @@ body {
     height: 90vh;
     background-image: url(/assets/images/page1/house.png);
     background-size: cover;
-    
+
     display: flex;
     align-items: flex-end;
 }
@@ -99,7 +100,7 @@ body {
     align-items: center;
 }
 
-.main_about{
+.main_about {
     margin-left: 135px;
     margin-right: 135px;
     margin-bottom: 120px;
@@ -108,25 +109,27 @@ body {
     background-color: #FBFBFB;
 }
 
-.about_text{
+.about_text {
     grid-column: 2/3;
     display: grid;
     grid-template-rows: 1fr 2fr 1fr;
 }
 
-.title{
+.title {
     font-family: 'TTHoverRegular', Arial, sans-serif;
     font-size: 4em;
     color: rgba(189, 189, 189, 1);
     display: grid;
     align-items: center;
 }
-.about_company{
+
+.about_company {
     font-family: 'TTHoverRegular', Arial, sans-serif;
     font-size: 1em;
     line-height: 25px;
 }
-.about_button{
+
+.about_button {
     background-color: white;
     width: 35%;
     height: 50%;
@@ -137,61 +140,70 @@ body {
     justify-content: center;
     align-items: center;
 }
-.about_pictures{
+
+.about_pictures {
     grid-column: 1/2;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    
+
 }
-.about_img1{
-grid-column: 1/2;
-padding-top: 20px;
-display: grid;
-justify-content: center;
-align-content: center;
+
+.about_img1 {
+    grid-column: 1/2;
+    padding-top: 20px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
 }
-.about_img2{
-grid-area: 1/2/3/3;
-display: grid;
-justify-content: center;
-align-content: center;
+
+.about_img2 {
+    grid-area: 1/2/3/3;
+    display: grid;
+    justify-content: center;
+    align-content: center;
 }
-.about_img3{
+
+.about_img3 {
     grid-area: 2/1/3/2;
     display: grid;
     justify-content: center;
     padding-top: 30px;
 }
 
-.main_maintask{
+.main_maintask {
     margin-left: 135px;
     margin-right: 135px;
-    margin-bottom: 120px; 
+    margin-bottom: 120px;
     display: grid;
     grid-template-columns: 2fr 1fr 2fr;
     grid-template-rows: 1fr 3fr;
 }
-.maintask_title{
+
+.maintask_title {
     grid-area: 1/1/2/4;
 }
-.maintask_task1{
+
+.maintask_task1 {
     grid-area: 2/1/3/2;
     display: flex;
 }
-.maintask_task2{
+
+.maintask_task2 {
     grid-area: 2/3/3/4;
     display: flex;
 }
-.maintask_number{
-font-family: 'SFProDisplay-Bold', Arial, sans-serif;
-font-size: 12.5em;
-color: rgba(242, 242, 242, 1);
-display: flex;
-justify-content: center;
-align-items: center;
-margin-right: 20px;
+
+.maintask_number {
+    font-family: 'SFProDisplay-Bold', Arial, sans-serif;
+    font-size: 12.5em;
+    color: rgba(242, 242, 242, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
 }
-.maintask_text{
+
+.maintask_text {
     font-family: 'TTHoverRegular', Arial, sans-serif;
     font-size: 1.375em;
     line-height: 36px;
@@ -200,4 +212,72 @@ margin-right: 20px;
     align-items: center;
 }
 
+.main_project {
+    margin-left: 135px;
+    margin-right: 135px;
+    margin-bottom: 120px;
+    display: grid;
+    grid-template-rows: repeat(autofit, minmax(100px, 1fr));
+}
 
+.main_contact {
+    margin-left: 135px;
+    margin-right: 135px;
+    margin-bottom: 120px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: repeat(autofit, minmax(70px, 1fr))
+}
+
+.contact_title {
+    grid-area: 1/1/2/3;
+}
+
+.contact_text {
+    grid-area: 3/1/4/2;
+    font-family: 'TTHoverRegular', Arial, sans-serif;
+    font-size: 0.875em;
+    color: #333333;
+    width: 70%;
+    justify-content: center;
+
+}
+
+.contact_button {
+    grid-area: 4/1/5/2;
+
+}
+
+.contact_form {
+    display: grid;
+    gap: 10px;
+}
+
+.input {
+    background-color: #F3F3F3;
+    border: none;
+    font-family: 'TTHoverRegular', Arial, sans-serif;
+    font-size: 0.875em;
+    width: 90%;
+    padding-left: 10px;
+}
+
+.contact_button {
+    background-color: #2C2C2C;
+    color: white;
+    width: 50%;
+    min-height: 70px;
+    font-family: 'TTHoverRegular', Arial, sans-serif;
+    font-size: 0.75em;
+    letter-spacing: 3px;
+
+}
+
+.contact_button img {
+    text-align: end;
+}
+
+.contact_image {
+    width: 100%;
+}
