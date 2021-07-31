@@ -1,0 +1,96 @@
+@font-face {
+    font-family: TTHovermedium;
+    src: url(/assets/font/TTHoves-Medium.eot),
+        url(/assets/font/TTHoves-Medium.ttf),
+        url(/assets/font/TTHoves-Medium.woff);
+}
+
+@font-face {
+    font-family: SFProDisplay-Bold;
+    src: url(/assets/font/SFProDisplay-Bold.eot),
+        url(/assets/font/SFProDisplay-Bold.ttf),
+        url(/assets/font/SFProDisplay-Bold.woff);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap');
+
+.gallery_title {
+    height: 20vw;
+}
+
+.gallery_title1 {
+    font-family: 'TTHoverRegular', Arial, sans-serif;
+    font-size: 4em;
+    color: #BDBDBD;
+    display: grid;
+    justify-content: left;
+    align-content: end;
+}
+
+.gallery_title2 {
+    font-family: 'TTHovermedium', Arial, sans-serif;
+    font-size: 4em;
+    font-weight: bold;
+}
+
+
+
+.wrapper {
+    display: grid;
+    grid-template-rows: minmax(100px, auto) 1fr minmax(417px, auto);
+    min-height: 100%;
+}
+
+.main {
+    max-height: 100%;
+}
+
+.gallery {
+    margin-top: 20px;
+    margin-left: 135px;
+    margin-right: 135px;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-rows: 20% 1fr 10%;
+    max-height: 100%;
+}
+
+.gallery_image {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr 1fr;
+    gap: 15px;
+}
+
+.gallery_card img,
+.gallery_item2 img,
+.gallery_item3 img,
+.gallery_item4 img,
+.gallery_item5 img,
+.gallery_item6 img,
+.gallery_item7 img,
+.gallery_item8 img,
+.gallery_item9 img,
+.gallery_item10 img {
+    width: 100%;
+
+}
+
+.gallery_arrows {
+    display: flex;
+    align-items: center;
+}
+
+.gallery_number,
+.gallery_left,
+.gallery_right {
+    margin: 10px;
+}
+
+@media screen and (max-width:1024px) and (min-width:375px) {
+
+    .gallery_title1,
+    .gallery_title2 {
+        font-size: 2em;
+    }
+}
