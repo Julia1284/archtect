@@ -1,0 +1,117 @@
+@font-face {
+    font-family: TTHovermedium;
+    src: url(/assets/font/TTHoves-Medium.eot),
+        url(/assets/font/TTHoves-Medium.ttf),
+        url(/assets/font/TTHoves-Medium.woff);
+}
+
+@font-face {
+    font-family: SFProDisplay-Bold;
+    src: url(/assets/font/SFProDisplay-Bold.eot),
+        url(/assets/font/SFProDisplay-Bold.ttf),
+        url(/assets/font/SFProDisplay-Bold.woff);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap');
+
+.wrapper {
+    display: grid;
+    grid-template-rows: minmax(100px, auto) 1fr minmax(417px, auto);
+    min-height: 100%;
+}
+
+.main {
+    max-height: 100%;
+
+}
+
+.projects {
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 100px;
+}
+
+.projects_title1 {
+    font-family: 'TTHoverRegular', Arial, sans-serif;
+    font-size: 4em;
+    color: #BDBDBD;
+    display: grid;
+    justify-content: left;
+    align-content: end;
+}
+
+.projects_title2 {
+    font-family: 'TTHovermedium', Arial, sans-serif;
+    font-size: 4em;
+    font-weight: bold;
+}
+.projects_item1,
+.projects_item2,
+.projects_item3 {
+    display: grid;
+    grid-template-columns: 57% 43%;
+    background-color: #FBFBFB;
+    margin: 5% 0 5% 0;
+}
+
+.projects_text1,
+.projects_text3,
+.projects_text2 {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 20px;
+}
+
+.text1_title,
+.text2_title,
+.text3_title {
+    font-family: 'TTHoverRegular', Arial, sans-serif;
+    color: #BDBDBD;
+    font-size: 2.3em;
+}
+
+.text1_text,
+.text2_text,
+.text3_text {
+    font-family: 'TTHoverRegular', Arial, sans-serif;
+    font-size: 1em;
+    line-height: 25px;
+}
+
+.projects_picture1 img,
+.projects_picture2 img,
+.projects_picture3 img {
+    width: 100%;
+}
+
+.button {
+    padding-top: 20px;
+}
+
+.project_button {
+    background-color: white;
+    width: 35%;
+    height: 50%;
+    border: none;
+    font-family: 'TTHoverRegular', Arial, sans-serif;
+    font-size: 0.75em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project_button:hover {
+    background-color: #BDBDBD;
+}
+
+.project_arrows {
+    display: flex;
+    align-items: center;
+}
+
+.project_number,
+.project_left,
+.project_right {
+    margin: 10px;
+}
