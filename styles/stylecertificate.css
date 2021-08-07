@@ -1,0 +1,49 @@
+.wrapper {
+    display: grid;
+    grid-template-rows: minmax(100px, auto) 1fr minmax(417px, auto);
+    min-height: 100%;
+}
+
+.main {
+    max-height: 100%;
+
+}
+.certificate{
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.certificate_title1 {
+    font-family: 'TTHoverRegular', Arial, sans-serif;
+    font-size: 4em;
+    color: #BDBDBD;
+    display: grid;
+    justify-content: left;
+    align-content: end;
+}
+
+.certificate_title2 {
+    font-family: 'TTHovermedium', Arial, sans-serif;
+    font-size: 4em;
+    font-weight: bold;
+}
+.certificate_items{
+
+    display: flex;
+    flex-direction: row;
+}
+.certificate_arrows {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.certificate_number,
+.certificate_left,
+.certificate_right {
+    margin: 10px;
+}

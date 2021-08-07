@@ -1,0 +1,83 @@
+
+
+
+.wrapper {
+    display: grid;
+    grid-template-rows: minmax(100px, auto) 1fr minmax(417px, auto);
+    min-height: 100%;
+}
+
+.main {
+    max-height: 100%;
+
+}
+.contacts{
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: 45% 55%;
+    
+}
+
+.contacts_title1 {
+    font-family: 'TTHoverRegular', Arial, sans-serif;
+    font-size: 4em;
+    color: #BDBDBD;
+    display: grid;
+    justify-content: left;
+    align-content: end;
+}
+
+.contacts_title2 {
+    font-family: 'TTHovermedium', Arial, sans-serif;
+    font-size: 4em;
+    font-weight: bold;
+}
+.contacts_information{
+    display: grid;
+    grid-template-rows: 36% 10% 10% 10% 34%;
+}
+.contacts_adress{
+    display: grid;
+    grid-template-rows: 1fr 1fr ;
+}
+.adress1,
+.adress2{
+    font-family: 'TTHoverRegular', Arial, sans-serif;
+    font-size: 1.125em;
+}
+.adress1{
+    font-weight: bold;
+}
+.contacts_phone{
+    display: grid;
+    align-content: center;
+    font-family: 'TTHoverRegular', Arial, sans-serif;
+    font-size: 1.125em;
+    font-weight: bold ;
+}
+
+.contacts_mail{
+    display: grid;
+    align-content: center;
+    font-family: 'TTHoverRegular', Arial, sans-serif;
+    font-size: 1em;
+}
+
+.contacts_button button{
+    background-color: #2C2C2C;
+    color: white;
+    width: 45%;
+    min-height: 70px;
+    font-family: 'TTHoverRegular', Arial, sans-serif;
+    font-size: 0.75em;
+    letter-spacing: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.contacts_button{
+    display: grid;
+    align-content: center;
+}
