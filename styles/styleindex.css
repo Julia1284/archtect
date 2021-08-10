@@ -69,11 +69,19 @@ body {
 }
 
 .page1_right {
-    background-color: #F9F9F9;
+    background-color: white;
     border: 1px solid #F2F2F2;
     width: 15%;
     height: 30%;
 }
+
+.page1_left:hover{
+    background-color: #F9F9F9;
+}
+.page1_right:hover{
+    background-color: #F9F9F9;
+}
+
 
 .page1_number {
     display: grid;
@@ -100,6 +108,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.page1_view:hover{
+    background-color:#F9F9F9 ;
 }
 
 .main_about {
@@ -141,6 +153,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.about_button:hover{
+    background-color:#e2e2e2 ;
 }
 
 .about_pictures {
@@ -253,6 +268,9 @@ body {
 
 }
 
+.item1_title:hover{
+color: #d6d4d4;
+}
 .project_button1 {
     background-color: transparent;
     border: none;
@@ -261,8 +279,9 @@ body {
     color: #FFFFFF;
     width: 35%;
     text-align: left;
-
 }
+
+
 
 .project_button2 {
     background-color: #2C2C2C;
@@ -276,7 +295,9 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0 0 0 84%;
-
+}
+.project_button2:hover {
+    background-color: #524e4e;
 }
 
 .project_item2 {
@@ -330,6 +351,9 @@ body {
 .contact_button {
     grid-area: 4/1/5/2;
 
+}
+.contact_button:hover{
+    background-color: #524e4e;
 }
 
 .contact_form {

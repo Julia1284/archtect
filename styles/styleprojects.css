@@ -46,29 +46,12 @@
     font-size: 4em;
     font-weight: bold;
 }
-.projects_item1,
-.projects_item2,
-.projects_item3 {
-    display: grid;
-    grid-template-columns: 57% 43%;
-    background-color: #FBFBFB;
-    margin: 5% 0 5% 0;
-}
-
-.projects_text1,
-.projects_text3,
-.projects_text2 {
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    margin: 20px;
-}
-
 .text1_title,
 .text2_title,
 .text3_title {
     font-family: 'TTHoverRegular', Arial, sans-serif;
     color: #BDBDBD;
-    font-size: 2.3em;
+    font-size: 2.0em;
 }
 
 .text1_text,
@@ -114,4 +97,55 @@
 .project_left,
 .project_right {
     margin: 10px;
+}
+.project_left,
+.project_right{
+    background-color: white;
+    border:1px solid #F2F2F2;
+}
+.project_left:hover{
+    background-color:#F2F2F2 ;
+}
+.project_right:hover{
+    background-color:#F2F2F2 ;
+}
+@media screen  and (min-width:769px){
+    .projects_item1,
+.projects_item2,
+.projects_item3 {
+    display: grid;
+    grid-template-columns: 57% 43%;
+    background-color: #FBFBFB;
+    margin: 5% 0 5% 0;
+}
+.projects_text1,
+.projects_text3,
+.projects_text2 {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 20px;
+}
+}
+@media screen  and (max-width:768px){
+    .text1_title,
+    .text2_title,
+    .text3_title {
+        font-family: 'TTHoverRegular', Arial, sans-serif;
+        color: #BDBDBD;
+        font-size: 1.5em;
+    } 
+    .projects_item1,
+    .projects_item2,
+    .projects_item3{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        background-color: #FBFBFB;
+    }
+    .projects_text1,
+    .projects_text3,
+    .projects_text2{
+        display: grid;
+    
+    margin: 20px;
+    }
 }

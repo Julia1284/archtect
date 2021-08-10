@@ -15,7 +15,7 @@
     margin-bottom: 100px;
     display: flex;
     flex-direction: column;
-    
+
 }
 .certificate_title1 {
     font-family: 'TTHoverRegular', Arial, sans-serif;
@@ -46,4 +46,16 @@
 .certificate_left,
 .certificate_right {
     margin: 10px;
+}
+
+.certificate_left,
+.certificate_right{
+    background-color: white;
+    border:1px solid #F2F2F2;
+}
+.certificate_left:hover{
+    background-color:#F2F2F2 ;
+}
+.certificate_right:hover{
+    background-color:#F2F2F2 ;
 }
