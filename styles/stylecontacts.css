@@ -15,9 +15,13 @@
     margin-top: 20px;
     margin-left: 10%;
     margin-bottom: 100px;
+    
+    
+}
+@media  screen and (min-width:768px) {
+    .contacts{
     display: grid;
     grid-template-columns: 45% 55%;
-    
 }
 
 .contacts_title1 {
@@ -83,4 +87,22 @@
 .contacts_button{
     display: grid;
     align-content: center;
+}
+@media screen and (max-width:767px) {
+    .contacts_title1,
+    .contacts_title2{
+        font-size: 2em;
+    }
+    .contacts{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
+    .contacts_information{
+        grid-row: 1;
+    }
+    .contact_image{
+        grid-row: 2;
+    }
+    
+    
 }

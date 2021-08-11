@@ -127,6 +127,11 @@
 }
 }
 @media screen  and (max-width:768px){
+
+    .projects_title1,
+    .projects_title2{
+        font-size: 2em;
+    }
     .text1_title,
     .text2_title,
     .text3_title {
