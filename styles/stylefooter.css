@@ -1,8 +1,8 @@
 @font-face {
     font-family: TTHoverRegular;
-    src: url(/assets/font/TTHoves-Regular.eot),
-        url(/assets/font/TTHoves-Regular.ttf),
-        url(/assets/font/TTHoves-Regular.woff);
+    src: url(../assets/font/TTHoves-Regular.eot),
+        url(../assets/font/TTHoves-Regular.ttf),
+        url(../assets/font/TTHoves-Regular.woff);
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');

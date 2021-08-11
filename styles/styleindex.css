@@ -254,7 +254,7 @@ body {
 
 .project_item1 {
     grid-area: 1/1/2/3;
-    background-image: url(/assets/images/page1/Rectangle12.svg);
+    background-image: url(../assets/images/page1/Rectangle12.svg);
     background-size: cover;
     display: grid;
     padding: 10%;
