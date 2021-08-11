@@ -1,15 +1,11 @@
 
-
-
 .wrapper {
     display: grid;
     grid-template-rows: minmax(100px, auto) 1fr minmax(417px, auto);
     min-height: 100%;
 }
-
 .main {
     max-height: 100%;
-
 }
 .contacts{
     margin-top: 20px;
@@ -103,6 +99,4 @@
     .contact_image{
         grid-row: 2;
     }
-    
-    
 }
